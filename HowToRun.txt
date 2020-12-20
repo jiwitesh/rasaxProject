@@ -1,2 +1,11 @@
-Microsoft Build tools with visual c++ 14.0 installed.
-    Link: https://visualstudio.microsoft.com/downloads/
+Step1: Create a new folder name it as RasaXProject
+Step2: Create a separate environment
+        conda create -n rasaxproject python==3.6.10
+
+Step3: conda activate rasaxproject
+Step4:  pip install rasa-x -i https://pypi.rasa.com/simple
+        pip install spacy
+        python -m spacy download en
+        python -m spacy download en_core_web_md
+
+Step5: rasa init
