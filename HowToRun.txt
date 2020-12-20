@@ -1,0 +1,2 @@
+Microsoft Build tools with visual c++ 14.0 installed.
+    Link: https://visualstudio.microsoft.com/downloads/
