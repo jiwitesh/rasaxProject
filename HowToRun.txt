@@ -9,3 +9,10 @@ Step4:  pip install rasa-x -i https://pypi.rasa.com/simple
         python -m spacy download en_core_web_md
 
 Step5: rasa init
+Step6: rasa train
+Step7: rasa x
+
+# Nlu.md  => this file contains the training phrase and the intent name
+# stories.md => this file contains the flow of the conversation
+# domains.yml => in this file we are supposed to mention the list of intents and list of utterances
+#               along with their response text

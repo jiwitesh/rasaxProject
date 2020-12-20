@@ -9,6 +9,8 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- GET_BOOKING_INFO
+- BOOKING_ID
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -23,3 +25,9 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_sure_help:
+  - text: Sure, we will help you out with that. Can you please help me with your booking
+      ID.
+  - text: Sure sir/mam, What is your booking ID
+  utter_thanks:
+  - text: thanks for providing your booking id
