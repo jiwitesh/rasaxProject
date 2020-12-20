@@ -1,16 +1,17 @@
-Step1: Create a new folder name it as RasaXProject
+Step1: Donwload project from the url is being provided in the dashboard or clone it from the below url
+        https://github.com/jiwitesh/rasaxProject.git
+        git clone https://github.com/jiwitesh/rasaxProject.git
 Step2: Create a separate environment
-        conda create -n rasaxproject python==3.6.10
+        conda create -n rasaxproject python==3.6.9
 
 Step3: conda activate rasaxproject
-Step4:  pip install rasa-x -i https://pypi.rasa.com/simple
+Step4:  pip install rasa-x==0.32.2 --extra-index-url https://pypi.rasa.com/simple
         pip install spacy
         python -m spacy download en
         python -m spacy download en_core_web_md
 
-Step5: rasa init
-Step6: rasa train
-Step7: rasa x
+Step5: rasa train
+Step6: rasa x
 
 # Nlu.md  => this file contains the training phrase and the intent name
 # stories.md => this file contains the flow of the conversation
